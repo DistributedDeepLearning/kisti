@@ -1,7 +1,7 @@
 # 출처 : https://towardsdatascience.com/text-classification-with-bert-in-pytorch-887965e5820f
 # Text Classification with BERT in PyTorch
 import pandas as pd
-datapath = '../../data/bbc-text.csv'
+datapath = './data/bbc-text.csv'
 df = pd.read_csv(datapath)
 df.head()
 df.groupby(['category']).size().plot.bar()
