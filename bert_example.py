@@ -21,7 +21,7 @@ bert_input.input_ids[0]
 example_text = tokenizer.decode(bert_input.input_ids[0])
 
 print(example_text)
----
+
 import torch
 import numpy as np
 from transformers import BertTokenizer
