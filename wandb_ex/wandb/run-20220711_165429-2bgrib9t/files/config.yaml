@@ -1,0 +1,56 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.20
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1657526069
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 1
+      4: 3.8.10
+      5: 0.12.20
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 64
+dry_run:
+  desc: null
+  value: false
+epochs:
+  desc: null
+  value: 5
+gamma:
+  desc: null
+  value: 0.7
+log_interval:
+  desc: null
+  value: 10
+lr:
+  desc: null
+  value: 1.0
+no_cuda:
+  desc: null
+  value: false
+save_model:
+  desc: null
+  value: false
+seed:
+  desc: null
+  value: 1
+test_batch_size:
+  desc: null
+  value: 1000
