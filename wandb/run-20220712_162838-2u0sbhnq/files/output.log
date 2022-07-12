@@ -1,0 +1,34 @@
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/loops/utilities.py:91: PossibleUserWarning: `max_epochs` was not set. Setting it to 1000 epochs. To train without an epoch limit, set `max_epochs=-1`.
+  rank_zero_warn(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+initializing deepspeed distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+Traceback (most recent call last):
+  File "pl.py", line 63, in <module>
+    trainer.fit(model, train_loader, val_loader)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 770, in fit
+    self._call_and_handle_interrupt(
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return self.strategy.launcher.launch(trainer_fn, *args, trainer=self, **kwargs)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 93, in launch
+    return function(*args, **kwargs)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 811, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1217, in _run
+    self.strategy.setup(self)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/strategies/deepspeed.py", line 362, in setup
+    self.init_deepspeed()
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/strategies/deepspeed.py", line 461, in init_deepspeed
+    self._initialize_deepspeed_train(model)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/strategies/deepspeed.py", line 494, in _initialize_deepspeed_train
+    model, deepspeed_optimizer = self._setup_model_and_optimizer(model, optimizer, scheduler)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/strategies/deepspeed.py", line 426, in _setup_model_and_optimizer
+    deepspeed_engine, deepspeed_optimizer, _, _ = deepspeed.initialize(
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/deepspeed/__init__.py", line 120, in initialize
+    engine = DeepSpeedEngine(args=args,
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/deepspeed/runtime/engine.py", line 248, in __init__
+    self._set_distributed_vars(args)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/deepspeed/runtime/engine.py", line 840, in _set_distributed_vars
+    if device_rank >= 0:

@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.13.0-39-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-07-12T07:28:08.537656",
+    "startedAt": "2022-07-12T07:28:07.869498",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--epochs=10"
+    ],
+    "state": "running",
+    "program": "pl.py",
+    "codePath": "pl.py",
+    "git": {
+        "remote": "https://github.com/DistributedDeepLearning/kisti.git",
+        "commit": "84ab1fa8caaab685c42088cad88c26d9f4d2a61e"
+    },
+    "email": "rjsdudans@naver.com",
+    "root": "/home/ingu627/kisti",
+    "host": "wise-k8n-1",
+    "username": "ingu627",
+    "executable": "/home/ingu627/gtx2080/bin/python"
+}
