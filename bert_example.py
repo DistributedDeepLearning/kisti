@@ -135,7 +135,7 @@ def train(model, train_data, val_data, learning_rate, epochs):
             
             acc = (output.argmax(dim=1) == train_label).sum().item()
             total_acc_train += acc
-            
+             
             model.zero_grad()
             batch_loss.backward()
             optimizer.step()

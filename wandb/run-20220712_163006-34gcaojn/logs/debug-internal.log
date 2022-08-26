@@ -1,0 +1,151 @@
+2022-07-12 16:30:06,472 INFO    StreamThr :578546 [internal.py:wandb_internal():90] W&B internal server running at pid: 578546, started at: 2022-07-12 16:30:06.472195
+2022-07-12 16:30:06,473 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: status
+2022-07-12 16:30:06,474 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: status
+2022-07-12 16:30:06,475 DEBUG   SenderThread:578546 [sender.py:send():235] send: header
+2022-07-12 16:30:06,475 INFO    WriterThread:578546 [datastore.py:open_for_write():75] open: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/run-34gcaojn.wandb
+2022-07-12 16:30:06,481 DEBUG   SenderThread:578546 [sender.py:send():235] send: run
+2022-07-12 16:30:06,482 INFO    SenderThread:578546 [sender.py:_maybe_setup_resume():492] checking resume status for None/pl-mnist/34gcaojn
+2022-07-12 16:30:07,002 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: check_version
+2022-07-12 16:30:07,004 INFO    SenderThread:578546 [dir_watcher.py:__init__():205] watching files in: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files
+2022-07-12 16:30:07,004 INFO    SenderThread:578546 [sender.py:_start_run_threads():812] run started: 34gcaojn with start time 1657611006
+2022-07-12 16:30:07,004 DEBUG   SenderThread:578546 [sender.py:send():235] send: summary
+2022-07-12 16:30:07,004 INFO    SenderThread:578546 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-12 16:30:07,004 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: check_version
+2022-07-12 16:30:07,029 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: run_start
+2022-07-12 16:30:07,034 DEBUG   HandlerThread:578546 [meta.py:__init__():35] meta init
+2022-07-12 16:30:07,034 DEBUG   HandlerThread:578546 [meta.py:__init__():49] meta init done
+2022-07-12 16:30:07,035 DEBUG   HandlerThread:578546 [meta.py:probe():209] probe
+2022-07-12 16:30:07,039 DEBUG   HandlerThread:578546 [meta.py:_setup_git():199] setup git
+2022-07-12 16:30:07,047 DEBUG   HandlerThread:578546 [meta.py:_setup_git():206] setup git done
+2022-07-12 16:30:07,047 DEBUG   HandlerThread:578546 [meta.py:_save_pip():53] save pip
+2022-07-12 16:30:07,047 DEBUG   HandlerThread:578546 [meta.py:_save_pip():67] save pip done
+2022-07-12 16:30:07,047 DEBUG   HandlerThread:578546 [meta.py:probe():247] probe done
+2022-07-12 16:30:07,122 DEBUG   SenderThread:578546 [sender.py:send():235] send: files
+2022-07-12 16:30:07,122 INFO    SenderThread:578546 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-12 16:30:07,127 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-12 16:30:07,127 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: stop_status
+2022-07-12 16:30:07,205 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:07,339 DEBUG   SenderThread:578546 [sender.py:send():235] send: telemetry
+2022-07-12 16:30:07,339 DEBUG   SenderThread:578546 [sender.py:send():235] send: metric
+2022-07-12 16:30:07,339 DEBUG   SenderThread:578546 [sender.py:send():235] send: telemetry
+2022-07-12 16:30:07,339 DEBUG   SenderThread:578546 [sender.py:send():235] send: metric
+2022-07-12 16:30:07,339 WARNING SenderThread:578546 [sender.py:send_metric():905] Seen metric with glob (shouldn't happen)
+2022-07-12 16:30:07,339 DEBUG   SenderThread:578546 [sender.py:send():235] send: exit
+2022-07-12 16:30:07,339 INFO    SenderThread:578546 [sender.py:send_exit():371] handling exit code: 1
+2022-07-12 16:30:07,339 INFO    SenderThread:578546 [sender.py:send_exit():373] handling runtime: 0
+2022-07-12 16:30:07,340 INFO    SenderThread:578546 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-12 16:30:07,340 INFO    SenderThread:578546 [sender.py:send_exit():379] send defer
+2022-07-12 16:30:07,340 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:07,340 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:07,340 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-12 16:30:07,341 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:07,341 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-12 16:30:07,341 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 1
+2022-07-12 16:30:07,341 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:07,341 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-12 16:30:07,437 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:07,437 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-12 16:30:07,437 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 2
+2022-07-12 16:30:07,437 DEBUG   SenderThread:578546 [sender.py:send():235] send: stats
+2022-07-12 16:30:07,437 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:07,437 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-12 16:30:07,438 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:07,438 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-12 16:30:07,438 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 3
+2022-07-12 16:30:07,438 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:07,438 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-12 16:30:07,438 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:07,438 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-12 16:30:07,438 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 4
+2022-07-12 16:30:07,438 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:07,438 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-12 16:30:07,439 DEBUG   SenderThread:578546 [sender.py:send():235] send: summary
+2022-07-12 16:30:07,439 INFO    SenderThread:578546 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-12 16:30:07,439 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:07,439 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-12 16:30:07,439 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 5
+2022-07-12 16:30:07,439 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:07,439 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-12 16:30:07,439 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:07,439 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-12 16:30:07,442 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:07,691 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 6
+2022-07-12 16:30:07,691 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:07,691 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:07,691 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 6
+2022-07-12 16:30:07,692 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:07,692 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-07-12 16:30:07,692 INFO    SenderThread:578546 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-12 16:30:07,769 INFO    Thread-16 :578546 [upload_job.py:push():132] Uploaded file /tmp/tmpszu6peozwandb/hmfocanq-wandb-metadata.json
+2022-07-12 16:30:07,792 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,005 INFO    Thread-12 :578546 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/config.yaml
+2022-07-12 16:30:08,005 INFO    SenderThread:578546 [dir_watcher.py:_on_file_created():256] file/dir created: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/wandb-metadata.json
+2022-07-12 16:30:08,005 INFO    SenderThread:578546 [dir_watcher.py:_on_file_created():256] file/dir created: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/output.log
+2022-07-12 16:30:08,006 INFO    SenderThread:578546 [dir_watcher.py:_on_file_created():256] file/dir created: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/requirements.txt
+2022-07-12 16:30:08,006 INFO    SenderThread:578546 [dir_watcher.py:_on_file_created():256] file/dir created: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/wandb-summary.json
+2022-07-12 16:30:08,006 INFO    SenderThread:578546 [dir_watcher.py:finish():366] scan: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files
+2022-07-12 16:30:08,006 INFO    SenderThread:578546 [dir_watcher.py:finish():380] scan save: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/wandb-metadata.json wandb-metadata.json
+2022-07-12 16:30:08,006 INFO    SenderThread:578546 [dir_watcher.py:finish():380] scan save: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/config.yaml config.yaml
+2022-07-12 16:30:08,006 INFO    SenderThread:578546 [dir_watcher.py:finish():380] scan save: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/requirements.txt requirements.txt
+2022-07-12 16:30:08,008 INFO    SenderThread:578546 [dir_watcher.py:finish():380] scan save: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/wandb-summary.json wandb-summary.json
+2022-07-12 16:30:08,008 INFO    SenderThread:578546 [dir_watcher.py:finish():380] scan save: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/output.log output.log
+2022-07-12 16:30:08,010 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 7
+2022-07-12 16:30:08,010 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,013 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:08,013 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 7
+2022-07-12 16:30:08,013 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:08,013 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-07-12 16:30:08,013 INFO    SenderThread:578546 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-12 16:30:08,114 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,114 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,215 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,215 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,316 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,316 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,417 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,417 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,518 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,518 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,619 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,619 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,659 INFO    Thread-17 :578546 [upload_job.py:push():132] Uploaded file /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/config.yaml
+2022-07-12 16:30:08,673 INFO    Thread-19 :578546 [upload_job.py:push():132] Uploaded file /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/wandb-summary.json
+2022-07-12 16:30:08,696 INFO    Thread-18 :578546 [upload_job.py:push():132] Uploaded file /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/files/requirements.txt
+2022-07-12 16:30:08,720 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,720 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,821 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:08,821 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:08,897 INFO    Thread-11 :578546 [sender.py:transition_state():392] send defer: 8
+2022-07-12 16:30:08,897 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:08,897 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 8
+2022-07-12 16:30:08,897 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:08,897 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-07-12 16:30:08,922 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:09,594 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 9
+2022-07-12 16:30:09,594 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:09,596 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:09,596 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 9
+2022-07-12 16:30:09,597 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:09,597 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-07-12 16:30:09,597 INFO    SenderThread:578546 [sender.py:transition_state():392] send defer: 10
+2022-07-12 16:30:09,599 DEBUG   SenderThread:578546 [sender.py:send():235] send: final
+2022-07-12 16:30:09,599 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: defer
+2022-07-12 16:30:09,599 DEBUG   SenderThread:578546 [sender.py:send():235] send: footer
+2022-07-12 16:30:09,600 INFO    HandlerThread:578546 [handler.py:handle_request_defer():164] handle defer: 10
+2022-07-12 16:30:09,601 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: defer
+2022-07-12 16:30:09,601 INFO    SenderThread:578546 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-07-12 16:30:09,698 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-12 16:30:09,698 DEBUG   SenderThread:578546 [sender.py:send_request():249] send_request: poll_exit
+2022-07-12 16:30:09,698 INFO    SenderThread:578546 [file_pusher.py:join():150] waiting for file pusher
+2022-07-12 16:30:10,232 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: sampled_history
+2022-07-12 16:30:10,234 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-12 16:30:10,236 INFO    MainThread:578546 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-07-12 16:30:10,236 INFO    MainThread:578546 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-07-12 16:30:10,236 INFO    MainThread:578546 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2022-07-12 16:30:10,237 DEBUG   HandlerThread:578546 [handler.py:handle_request():141] handle_request: shutdown
+2022-07-12 16:30:10,238 INFO    HandlerThread:578546 [handler.py:finish():806] shutting down handler
+2022-07-12 16:30:10,600 INFO    WriterThread:578546 [datastore.py:close():279] close: /home/ingu627/kisti/wandb/run-20220712_163006-34gcaojn/run-34gcaojn.wandb
+2022-07-12 16:30:11,131 INFO    SenderThread:578546 [sender.py:finish():1111] shutting down sender
+2022-07-12 16:30:11,131 INFO    SenderThread:578546 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-12 16:30:11,131 INFO    SenderThread:578546 [file_pusher.py:join():150] waiting for file pusher
+2022-07-12 16:30:11,242 INFO    MainThread:578546 [internal.py:handle_exit():80] Internal process exited

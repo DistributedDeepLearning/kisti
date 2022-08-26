@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "pl.py", line 62, in <module>
+    trainer = pl.Trainer(logger=wandb_logger, accelerator='gpu', strategy='deepspeed')
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/utilities/argparse.py", line 339, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 485, in __init__
+    self._accelerator_connector = AcceleratorConnector(
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 201, in __init__
+    self._set_parallel_devices_and_init_accelerator()
+  File "/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 519, in _set_parallel_devices_and_init_accelerator
+    raise MisconfigurationException(

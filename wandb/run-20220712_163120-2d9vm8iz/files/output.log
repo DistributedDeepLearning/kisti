@@ -1,0 +1,423 @@
+
+Epoch 0:  11%|█▎          | 208/1876 [00:01<00:11, 143.36it/s, loss=0.0524, v_num=m8iz]
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing ddp_sharded `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=ddp_sharded)` instead.
+  rank_zero_deprecation(
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/loops/utilities.py:91: PossibleUserWarning: `max_epochs` was not set. Setting it to 1000 epochs. To train without an epoch limit, set `max_epochs=-1`.
+  rank_zero_warn(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=gloo
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+  | Name    | Type       | Params
+---------------------------------------
+0 | encoder | Sequential | 50.4 K
+1 | decoder | Sequential | 51.2 K
+---------------------------------------
+101 K     Trainable params
+0         Non-trainable params
+101 K     Total params
+0.407     Total estimated model params size (MB)
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+Epoch 0:  89%|██████████▋ | 1677/1876 [00:11<00:01, 146.49it/s, loss=0.042, v_num=m8iz]
+
+
+
+
+
+Epoch 1:  87%|█████████▌ | 1624/1876 [00:09<00:01, 174.54it/s, loss=0.0411, v_num=m8iz]
+
+
+
+
+
+Epoch 2:  84%|█████████▏ | 1575/1876 [00:08<00:01, 175.17it/s, loss=0.0409, v_num=m8iz]
+
+
+
+
+
+Epoch 3:  81%|████████▉  | 1526/1876 [00:08<00:01, 175.22it/s, loss=0.0399, v_num=m8iz]
+
+
+
+
+
+Epoch 4:  80%|████████▊  | 1495/1876 [00:08<00:02, 177.06it/s, loss=0.0407, v_num=m8iz]
+Epoch 4:  97%|██████████▋| 1822/1876 [00:10<00:00, 181.47it/s, loss=0.0399, v_num=m8iz]
+
+
+
+
+Epoch 5:  73%|█████████▍   | 1369/1876 [00:07<00:02, 176.03it/s, loss=0.04, v_num=m8iz]
+Epoch 5:  94%|██████████▎| 1765/1876 [00:09<00:00, 178.32it/s, loss=0.0396, v_num=m8iz]
+
+
+
+
+
+Epoch 6:  91%|██████████▉ | 1714/1876 [00:09<00:00, 175.95it/s, loss=0.039, v_num=m8iz]
+
+
+
+
+
+Epoch 7:  90%|█████████▊ | 1682/1876 [00:09<00:01, 176.80it/s, loss=0.0393, v_num=m8iz]
+
+
+
+
+
+Epoch 8:  86%|██████████▎ | 1620/1876 [00:09<00:01, 173.13it/s, loss=0.039, v_num=m8iz]
+
+
+
+
+
+Epoch 9:  82%|█████████  | 1540/1876 [00:08<00:01, 171.68it/s, loss=0.0381, v_num=m8iz]
+
+
+
+
+
+Epoch 10:  74%|███████▎  | 1382/1876 [00:08<00:02, 172.62it/s, loss=0.0384, v_num=m8iz]
+Epoch 10:  95%|█████████▌| 1785/1876 [00:10<00:00, 176.16it/s, loss=0.0386, v_num=m8iz]
+
+
+
+
+Epoch 11:  92%|█████████▏| 1725/1876 [00:09<00:00, 176.98it/s, loss=0.0388, v_num=m8iz]
+Validation DataLoader 0:   4%|▉                       | 6/157 [00:00<00:00, 370.37it/s]
+
+
+
+
+
+Epoch 12:  90%|████████▉ | 1687/1876 [00:09<00:01, 175.90it/s, loss=0.0387, v_num=m8iz]
+
+
+
+
+
+Epoch 13:  87%|████████▋ | 1638/1876 [00:09<00:01, 175.07it/s, loss=0.0383, v_num=m8iz]
+
+
+
+
+
+Epoch 14:  82%|████████▏ | 1531/1876 [00:09<00:02, 168.44it/s, loss=0.0381, v_num=m8iz]
+Epoch 14: 100%|█████████▉| 1868/1876 [00:10<00:00, 174.91it/s, loss=0.0379, v_num=m8iz]
+
+
+
+
+Epoch 15:  75%|███████▍  | 1398/1876 [00:07<00:02, 176.99it/s, loss=0.0387, v_num=m8iz]
+Epoch 15:  97%|█████████▋| 1815/1876 [00:10<00:00, 181.01it/s, loss=0.0366, v_num=m8iz]
+
+
+
+
+
+Epoch 16:  91%|█████████▏| 1714/1876 [00:09<00:00, 173.78it/s, loss=0.0381, v_num=m8iz]
+
+
+
+
+
+Epoch 17:  87%|████████▋ | 1638/1876 [00:09<00:01, 172.54it/s, loss=0.0377, v_num=m8iz]
+
+
+
+
+
+Epoch 18:  84%|████████▎ | 1569/1876 [00:09<00:01, 171.82it/s, loss=0.0369, v_num=m8iz]
+
+
+
+
+
+Epoch 19:  76%|███████▋  | 1434/1876 [00:08<00:02, 175.36it/s, loss=0.0369, v_num=m8iz]
+Epoch 19:  99%|██████████▉| 1856/1876 [00:10<00:00, 180.38it/s, loss=0.037, v_num=m8iz]
+
+
+
+
+
+Epoch 20:  90%|█████████ | 1696/1876 [00:09<00:01, 170.76it/s, loss=0.0366, v_num=m8iz]
+
+
+
+
+
+Epoch 21:  85%|████████▌ | 1600/1876 [00:09<00:01, 170.47it/s, loss=0.0376, v_num=m8iz]
+
+
+
+
+
+Epoch 22:  80%|███████▉  | 1499/1876 [00:08<00:02, 169.92it/s, loss=0.0375, v_num=m8iz]
+
+
+
+
+
+Epoch 23:  93%|█████████▎| 1751/1876 [00:10<00:00, 171.49it/s, loss=0.0371, v_num=m8iz]
+Validation DataLoader 0:  21%|████▊                  | 33/157 [00:00<00:00, 330.79it/s]
+
+
+
+
+
+Epoch 24:  86%|████████▋ | 1622/1876 [00:09<00:01, 169.43it/s, loss=0.0368, v_num=m8iz]
+
+
+
+
+
+Epoch 25:  78%|███████▊  | 1462/1876 [00:08<00:02, 170.09it/s, loss=0.0375, v_num=m8iz]
+
+
+
+
+
+
+Epoch 26:  89%|████████▉ | 1666/1876 [00:10<00:01, 165.20it/s, loss=0.0367, v_num=m8iz]
+
+
+
+
+
+Epoch 27:  82%|████████▏ | 1544/1876 [00:09<00:01, 167.84it/s, loss=0.0364, v_num=m8iz]
+
+
+
+
+
+Epoch 28:  76%|████████▍  | 1431/1876 [00:08<00:02, 167.81it/s, loss=0.037, v_num=m8iz]
+Epoch 28:  98%|█████████▊| 1844/1876 [00:10<00:00, 172.95it/s, loss=0.0363, v_num=m8iz]
+
+
+
+
+
+Epoch 29:  84%|████████▍ | 1581/1876 [00:09<00:01, 168.19it/s, loss=0.0368, v_num=m8iz]
+
+
+
+
+
+Epoch 30:  77%|███████▋  | 1451/1876 [00:08<00:02, 166.82it/s, loss=0.0361, v_num=m8iz]
+Epoch 30: 100%|█████████▉| 1869/1876 [00:10<00:00, 172.12it/s, loss=0.0361, v_num=m8iz]
+
+
+
+
+
+Epoch 31:  86%|████████▌ | 1610/1876 [00:10<00:01, 160.47it/s, loss=0.0375, v_num=m8iz]
+
+
+
+
+
+Epoch 32:  78%|███████▊  | 1464/1876 [00:08<00:02, 166.58it/s, loss=0.0368, v_num=m8iz]
+
+
+
+
+
+
+Epoch 33:  87%|████████▋ | 1641/1876 [00:10<00:01, 162.45it/s, loss=0.0371, v_num=m8iz]
+
+
+
+
+
+Epoch 34:  74%|███████▍  | 1384/1876 [00:08<00:03, 162.04it/s, loss=0.0374, v_num=m8iz]
+Epoch 34:  93%|█████████▎| 1739/1876 [00:10<00:00, 163.18it/s, loss=0.0367, v_num=m8iz]
+
+
+
+
+
+Epoch 35:  83%|█████████▏ | 1557/1876 [00:09<00:01, 162.09it/s, loss=0.036, v_num=m8iz]
+
+
+
+
+
+Epoch 36:  94%|█████████▍| 1759/1876 [00:10<00:00, 165.14it/s, loss=0.0353, v_num=m8iz]
+Validation DataLoader 0:  25%|█████▊                 | 40/157 [00:00<00:00, 326.47it/s]
+
+
+
+
+
+Epoch 37:  83%|████████▎ | 1564/1876 [00:09<00:01, 161.67it/s, loss=0.0356, v_num=m8iz]
+
+
+
+
+
+
+Epoch 38:  85%|████████▌ | 1600/1876 [00:10<00:01, 157.61it/s, loss=0.0374, v_num=m8iz]
+
+
+
+
+
+Epoch 39:  92%|█████████▏| 1722/1876 [00:10<00:00, 158.39it/s, loss=0.0365, v_num=m8iz]
+Validation DataLoader 0:   2%|▍                       | 3/157 [00:00<00:00, 394.24it/s]
+
+
+
+
+
+Epoch 40:  80%|████████  | 1508/1876 [00:09<00:02, 158.04it/s, loss=0.0375, v_num=m8iz]
+
+
+
+
+
+
+Epoch 41:  88%|████████▊ | 1659/1876 [00:10<00:01, 161.27it/s, loss=0.0368, v_num=m8iz]
+
+
+
+
+
+Epoch 42:  77%|███████▋  | 1438/1876 [00:09<00:02, 159.76it/s, loss=0.0372, v_num=m8iz]
+Epoch 42:  92%|█████████▏| 1719/1876 [00:10<00:00, 160.19it/s, loss=0.0367, v_num=m8iz]
+
+
+
+
+
+Epoch 43:  81%|████████▏ | 1528/1876 [00:09<00:02, 159.85it/s, loss=0.0374, v_num=m8iz]
+
+
+
+
+
+
+Epoch 44:  90%|████████▉ | 1684/1876 [00:10<00:01, 160.94it/s, loss=0.0366, v_num=m8iz]
+
+
+
+
+
+Epoch 45:  79%|███████▉  | 1490/1876 [00:09<00:02, 160.24it/s, loss=0.0356, v_num=m8iz]
+Epoch 45: 100%|██████████▉| 1869/1876 [00:11<00:00, 165.84it/s, loss=0.037, v_num=m8iz]
+
+
+
+
+
+Epoch 46:  81%|████████▏ | 1527/1876 [00:09<00:02, 155.49it/s, loss=0.0359, v_num=m8iz]
+
+
+
+
+
+
+Epoch 47:  85%|████████▍ | 1591/1876 [00:10<00:01, 156.13it/s, loss=0.0354, v_num=m8iz]
+
+
+
+
+
+Epoch 48:  75%|███████▍  | 1405/1876 [00:08<00:02, 161.39it/s, loss=0.0366, v_num=m8iz]
+Epoch 48:  94%|█████████▍| 1761/1876 [00:10<00:00, 162.64it/s, loss=0.0355, v_num=m8iz]
+
+
+
+
+
+Epoch 49:  82%|████████▏ | 1533/1876 [00:09<00:02, 158.56it/s, loss=0.0365, v_num=m8iz]
+
+
+
+
+
+
+Epoch 50:  88%|████████▊ | 1642/1876 [00:10<00:01, 157.62it/s, loss=0.0358, v_num=m8iz]
+
+
+
+
+
+
+Epoch 51:  88%|████████▊ | 1646/1876 [00:10<00:01, 155.38it/s, loss=0.0345, v_num=m8iz]
+
+
+
+
+
+Epoch 52:  74%|████████▏  | 1394/1876 [00:09<00:03, 154.33it/s, loss=0.036, v_num=m8iz]
+Epoch 52:  93%|█████████▎| 1748/1876 [00:11<00:00, 156.89it/s, loss=0.0368, v_num=m8iz]
+
+
+
+
+
+Epoch 53:  82%|████████▏ | 1541/1876 [00:09<00:02, 159.95it/s, loss=0.0364, v_num=m8iz]
+
+
+
+
+
+
+Epoch 54:  90%|█████████ | 1696/1876 [00:10<00:01, 161.37it/s, loss=0.0361, v_num=m8iz]
+
+
+
+
+
+Epoch 55:  76%|███████▌  | 1424/1876 [00:08<00:02, 161.09it/s, loss=0.0361, v_num=m8iz]
+Epoch 55:  96%|█████████▌| 1805/1876 [00:10<00:00, 164.73it/s, loss=0.0364, v_num=m8iz]
+
+
+
+
+
+Epoch 56:  84%|████████▎ | 1567/1876 [00:09<00:01, 159.94it/s, loss=0.0362, v_num=m8iz]
+
+
+
+
+
+
+Epoch 57:  90%|█████████ | 1689/1876 [00:10<00:01, 158.44it/s, loss=0.0361, v_num=m8iz]
+
+
+
+
+
+Epoch 58:  79%|████████▋  | 1482/1876 [00:09<00:02, 159.82it/s, loss=0.036, v_num=m8iz]
+
+
+
+
+
+
+Epoch 59:  84%|████████▍ | 1582/1876 [00:10<00:01, 156.14it/s, loss=0.0361, v_num=m8iz]
+
+
+
+
+
+
+Epoch 60:  85%|████████▍ | 1593/1876 [00:10<00:01, 155.83it/s, loss=0.0372, v_num=m8iz]
+WARNING:root:ShardedDDP detected that the trainable params changed, either because of eval/train mode or parameter freezing/unfreeze.
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:726: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+

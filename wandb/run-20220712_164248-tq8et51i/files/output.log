@@ -1,0 +1,258 @@
+
+Epoch 0:  13%|█▌          | 244/1876 [00:01<00:09, 166.01it/s, loss=0.0516, v_num=t51i]
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/loops/utilities.py:91: PossibleUserWarning: `max_epochs` was not set. Setting it to 1000 epochs. To train without an epoch limit, set `max_epochs=-1`.
+  rank_zero_warn(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+  | Name    | Type       | Params
+---------------------------------------
+0 | encoder | Sequential | 50.4 K
+1 | decoder | Sequential | 51.2 K
+---------------------------------------
+101 K     Trainable params
+0         Non-trainable params
+101 K     Total params
+0.407     Total estimated model params size (MB)
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5: 100%|███████████▉| 1867/1876 [00:08<00:00, 212.75it/s, loss=0.038, v_num=t51i]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 13: 100%|█████████▉| 1872/1876 [00:09<00:00, 204.61it/s, loss=0.0366, v_num=t51i]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 16:  92%|█████████▏| 1728/1876 [00:08<00:00, 205.78it/s, loss=0.0364, v_num=t51i]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 23:  98%|█████████▊| 1836/1876 [00:08<00:00, 205.53it/s, loss=0.0359, v_num=t51i]
+
+
+
+
+
+
+
+
+Epoch 25:  93%|█████████▎| 1742/1876 [00:08<00:00, 198.64it/s, loss=0.0359, v_num=t51i]
+
+
+
+
+
+
+
+
+Epoch 27:  94%|█████████▍| 1772/1876 [00:08<00:00, 203.39it/s, loss=0.0358, v_num=t51i]
+
+
+
+
+
+
+
+
+Epoch 29:  92%|█████████▏| 1730/1876 [00:08<00:00, 199.50it/s, loss=0.0357, v_num=t51i]
+
+
+
+
+Epoch 30:  98%|█████████▊| 1846/1876 [00:09<00:00, 201.41it/s, loss=0.0357, v_num=t51i]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 38:  92%|█████████▏| 1732/1876 [00:09<00:00, 189.02it/s, loss=0.0355, v_num=t51i]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 42:  96%|█████████▋| 1806/1876 [00:09<00:00, 195.83it/s, loss=0.0354, v_num=t51i]
+
+
+
+
+Epoch 43: 100%|█████████▉| 1872/1876 [00:09<00:00, 198.66it/s, loss=0.0353, v_num=t51i]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 49:  96%|████████████████████████████████████████████▉  | 1794/1876 [00:09<00:00, 188.59it/s, loss=0.0352, v_num=t51i]
+
+
+
+
+Epoch 50:  98%|█████████████████████████████████████████████▉ | 1836/1876 [00:09<00:00, 192.11it/s, loss=0.0352, v_num=t51i]
+Validation DataLoader 0:  75%|███████████████████████████████████████████▉               | 117/157 [00:00<00:00, 349.78it/s]
+/home/ingu627/gtx2080/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:726: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+
